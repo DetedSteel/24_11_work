@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-style: italic;
+    border-bottom: 1px gray solid;
+    padding: 10px 40px;
+    color: teal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background-color: teal;
+    padding: 0 150px;
+    display: flex;
+    min-height: 500px;
+}
+
+footer {
+    background-image: url(../img/6.jpg);
+    padding-top: 100px;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 40px 10px;
+    height: calc(75% - 60px);
+}
+
+.menuItem {
+    color: grey;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.logoLink {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    align-self: center;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding-top: 120px;
+    color: white;
+}
+
+.socialMedia p {
+    text-align: center;
+}
+
+.socialLinks {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.socialLinks a {
+    align-self: center;
+}
+
+.btn {
+    margin-top: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    min-height: 100px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.thankYou {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    color: gray;
+    text-align: center;
+}
+
+.thankYou .btn {
+    background-color: teal;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+    color: white;
+    background-color: teal;
+}
+
+.card {
+    width: calc(50% - 50px);
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.form {
+    color: gray;
+    background-color: white;
+    border: 1px gray solid;
+    border-top: 5px teal solid;
+    width: 150px;
+    height: 300px;
+    margin-left: 75%;
+}
