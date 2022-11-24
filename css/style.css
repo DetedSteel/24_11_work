@@ -125,11 +125,33 @@ footer {
 }
 
 .form {
+    display: flex;
+    flex-direction: column;
     color: gray;
     background-color: white;
     border: 1px gray solid;
-    border-top: 5px teal solid;
-    width: 150px;
+    border-top: 10px teal solid;
+    border-radius: 10px;
+    width: 270px;
     height: 300px;
-    margin-left: 75%;
+    margin-left: 70%;
+    padding: 20px;
+    align-items: center;
+}
+
+.formInput {
+    width: 260px;
+    margin-bottom: 10px;
+    border: 1px gray solid;
+    padding: 7px 10px;
+}
+
+.form h2 {
+    align-self: flex-start;
+}
+
+.form .btn {
+    background-color: teal;
+    margin-top: 20px;
+    align-self: flex-end;
 }
